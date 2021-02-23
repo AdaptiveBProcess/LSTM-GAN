@@ -1,0 +1,17 @@
+name: sc_gan_taymouri
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - spyder
+  - pytorch
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - bottleneck
+  - ipywidgets
+  - pip:
+    - jellyfish
+    - pm4py
+    - git+http://github.com/Mcamargo85/support_modules.git
